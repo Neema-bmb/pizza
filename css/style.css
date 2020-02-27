@@ -1,3 +1,6 @@
+p{
+  font-size: 25px;
+}
 .zoom {
     padding: 50px;
     background-image: url();
@@ -8,6 +11,10 @@
 }
 .zoom:hover {
     transform: scale(1.5); 
+}
+.special{
+  align-items: center;
+  background-image: url(/images/rib.jpeg);
 }
 .flip-box {
     width: 300px;
@@ -36,16 +43,164 @@
   }
   
   .flip-box-front {
-    background-color: #bbb;
-    color: black;
-    background-image: url("/images/p1.jpeg");
+    
+    /*background-image: url("/images/p1.jpeg");*/
     background-repeat: no-repeat;
     background-size: cover;
+   
   }
   
   .flip-box-back {
-    background-color: dodgerblue;
-    color: white;
+    background-image: url(/images/board2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     transform: rotateX(180deg);
+    
   }
+  #element1{
+    background-image: url(/images/p2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element2{
+    background-image: url(/images/classic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element3{
+    background-image: url(/images/classic.2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element4{
+    background-image: url(/images/italian.classic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element5{
+    background-image: url(/images/hawaian.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element6{
+    background-image: url(/images/tik.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element7{
+    background-image: url(/images/bc.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element8{
+    background-image: url(/images/fejita.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element9{
+    background-image: url(/images/classic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element10{
+    background-image: url(/images/silican.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element11{
+    background-image: url(/images/califonia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element12{
+    background-image: url(/images/b&c.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element13{
+    background-image: url(/images/chicago.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element14{
+    background-image: url(/images/chicken.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element15{
+    background-image: url(/images/beef.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element16{
+    background-image: url(/images/classic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element17{
+    background-image: url(/images/classic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element18{
+    background-image: url(/images/nep.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element19{
+    background-image: url(/images/);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+ 
+  #element30{
+    background-image: url(/images/v2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element31{
+    background-image: url(/images/greek.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element32{
+    background-image: url(/images/gg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element33{
+    background-image: url(/images/v3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element34{
+    background-image: url(/images/v4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element35{
+    background-image: url(/images/tortilla.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #element36{
+    background-image: url(/images/spinach.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #hh{
+    align-items: center;
+  }
+  .parallax {
+    
+    background-image: url("img_parallax.jpg");
   
+  
+    height: 500px;
+  
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
