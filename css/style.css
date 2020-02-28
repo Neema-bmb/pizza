@@ -133,12 +133,12 @@ p{
     background-size: cover
   }
   #element16{
-    background-image: url(/images/classic.jpeg);
+    background-image: url(/images/o2.jpg);
     background-repeat: no-repeat;
     background-size: cover
   }
   #element17{
-    background-image: url(/images/classic.jpeg);
+    background-image: url(/images/o1.jpeg);
     background-repeat: no-repeat;
     background-size: cover
   }
@@ -188,8 +188,8 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
   }
-  #hh{
-    align-items: center;
+  h1{
+    text-align: center;
   }
   .parallax {
     
@@ -203,4 +203,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .checked {
+    color: orange;
   }
