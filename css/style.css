@@ -12,9 +12,11 @@ p{
 .zoom:hover {
     transform: scale(1.5); 
 }
-.special{
-  align-items: center;
+#special{
+ 
   background-image: url(/images/rib.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .flip-box {
     width: 300px;

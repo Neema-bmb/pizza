@@ -1,6 +1,10 @@
-
-$("button").click(function(){
-    $("p").toggle();
+$("div#button").click(function() {
+    $("div#form").toggle();
+    $("div#button").toggle();
+  });
+  $("div#button").click(function() {
+    $("div#form").toggle();
+    $("div#button").toggle();
   });
 function getSizeValue() {
     var selectedValue = document.getElementById("size").value;
