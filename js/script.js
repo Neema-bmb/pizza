@@ -2,7 +2,7 @@ $("div#button").click(function() {
     $("div#form").toggle();
     $("div#button").toggle();
   });
-  $("div#button").click(function() {
+  $("div#form").click(function() {
     $("div#form").toggle();
     $("div#button").toggle();
   });
