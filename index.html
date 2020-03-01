@@ -17,13 +17,15 @@
     <div class="hero-text">
       <h1><b>BMB</b></h1>
       <h3>PIZZA</h3>
-      <div class="zoom">
-        <button onclick="myFunction()">Order Now</button>
+      
       </div>
     </div>
   </div>  
  
   <div class="menu">
+    <div id="myDIV">
+      Menu
+    </div>
     <div class="row" id="special">
       <div class="col-md-3" id="col-1">
         <div class="flip-box">
@@ -588,10 +590,63 @@
           </div>
         </div>
       </div>
-
-      <div id="myDIV">
-        Menu
+      <div class="zoom">
+        <button onclick="myFunction()">Order Now</button>
       </div>
+        <div class="container-fluid">
+              <div class="container">
+                  <div id="form">
+                      <form>
+                          <div class="row">
+                              <div class="col-md-3">
+  
+                                  <label for="size" style="color:orange">Size</label>
+                                  <select class="browser-default custom-select" id="size">
+                                      <option value="">Choose option</option>
+                                      <option value="1500">Large =ksh 1500</option>
+                                      <option value="1000">Medium =ksh 1000</option>
+                                      <option value="500">Small= ksh500</option>
+                                  </select><br>
+                              </div>
+                              <div class="col-md-3">
+  
+                                  <label for="crust" style="color:orange">Crust</label>
+                                  <select class="browser-default custom-select" id="crust">
+                                      <option value="">Choose option</option>
+                                      <option value="150">Crispy =ksh 150</option>
+                                      <option value="100">Stuffed=ksh 100</option>
+                                      <option value="70">Gluten-free =ksh 70</option>
+                                  </select><br>
+                              </div>
+                              <div class="col-md-3">
+  
+                                  <label for="toppings" name="toppings" style="color:orange">Toppings</label>
+                                  <select class="browser-default custom-select" id="toppings">
+                                      <option value="">Choose option</option>
+                                      <option value="60">Cheese =ksh60</option>
+                                      <option value="60">pepperoni =ksh
+                                      <option value="60">onions =ksh60</option>
+                                  </select>
+                              </div>
+                              <div class="col-md-3">
+  
+                                  <label for="quantity" style="color: orange">Quantity</label>
+                                  <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max=""
+                                      min="0">
+                              </div><br><br><br><br><br><br>
+                              <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+                                  onclick="getTotalAmount();"><strong>Checkout</strong></button>
+                          </div>
+                      </form>
+  
+  
+                  </div>
+              </div>
+              </div>
+              </div>
+              </div>
+
+      
 
 
       <h4>REVIEWS</h4>

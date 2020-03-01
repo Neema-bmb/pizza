@@ -1,4 +1,7 @@
 
+$("button").click(function(){
+    $("p").toggle();
+  });
 function getSizeValue() {
     var selectedValue = document.getElementById("size").value;
     return parseInt(selectedValue);
