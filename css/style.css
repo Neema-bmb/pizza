@@ -65,7 +65,7 @@ p{
     background-size: cover;
   }
   #element2{
-    background-image: url(/images/classic.jpeg);
+    background-image: url(/images/extra.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -233,9 +233,7 @@ p{
   .checked {
     color: orange;
   }
-  #form{
-    display: none;
-  }
+ 
 .reviews{
   background-image: url(../IP3-master/assets/backgrounds/c_image.jpg);
   background-size: cover;
@@ -250,4 +248,13 @@ h3{
 }
 h4{
   text-align: center;
+}
+.navbar{
+  text-align: right;
+}
+.end{
+  text-align: center;
+}
+#dd{
+  font-size: 15px;
 }
