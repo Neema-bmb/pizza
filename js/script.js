@@ -2,7 +2,7 @@ $("div#button").click(function() {
     $("div#form").toggle();
     $("div#button").toggle();
   });
-  $("div#form").click(function() {
+  $("div#button]").click(function() {
     $("div#form").toggle();
     $("div#button").toggle();
   });
@@ -26,8 +26,7 @@ function getTotalAmount() {
     var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
     alert("You have Ordered" + getQuantity("")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
     prompt("enter your location")
-    alert("You delivery fee is 150/=")
-    alert("You order will be delivered shortly")
-    alert("Continue shoppping with us each and every time .")
+    alert("Your order will be delivered shortly, your delivery fee is 250/=")
+    alert("Keep shopping with us.")
 }
  
