@@ -150,9 +150,15 @@ p{
     background-size: cover
   }
 
-
+ 
+  
   #element19{
     background-image: url(/images/taco.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  #element29{
+    background-image: url(/images/v3.jpeg);
     background-repeat: no-repeat;
     background-size: cover
   }
@@ -202,7 +208,7 @@ p{
 
 .hero-image {
   
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/bg.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/bg3.jpeg");
 
  
   height: 100%;
