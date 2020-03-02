@@ -224,6 +224,18 @@ p{
   .checked {
     color: orange;
   }
-#form{
-  display: none;
+  #form{
+    display: none;
+  }
+.reviews{
+  background-image: url(../IP3-master/assets/backgrounds/c_image.jpg);
+  background-size: cover;
+  height: 480px;
+  position: relative;
+  padding: 90px;
+  text-align: center;
 }
+h3{
+  text-align: center;
+}
+.container{

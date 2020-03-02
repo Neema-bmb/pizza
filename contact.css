@@ -33,3 +33,10 @@
      background: transparent;
      color: #fff;
    }
+   .contact{
+    background-image: url(../IP3-master/assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    height: 480px;
+    position: relative;
+    padding: 90px;
+    text-align: center;
