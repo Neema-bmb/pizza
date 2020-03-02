@@ -1,0 +1,35 @@
+.contact input[type="text"]{
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .contact input[type="email"]{
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .put{
+    text-align: center;
+   }
+   ::placeholder {  
+     color: white; 
+   } 
+   #message{
+     margin-left: 120px;
+   }
+   .end{
+     text-align: center;
+   }
+   .icon{
+     margin-left: 270px;
+   }
+   textarea{
+     background: transparent;
+     color: #fff;
+   }

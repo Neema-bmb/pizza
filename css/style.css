@@ -16,7 +16,7 @@ p{
  
   background-image: url(/images/rib.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: ;
 }
 .flip-box {
     width: 300px;
@@ -150,7 +150,7 @@ p{
     background-size: cover
   }
   #element29{
-    background-image: url(/images/v1.jpg);
+    background-image: url(/images/v3.jpeg);
     background-repeat: no-repeat;
     background-size: cover
   }
@@ -192,7 +192,6 @@ p{
   }
   h2{
     text-align: center;
-    text-decoration-color: black;
   }
   body, html {
     height: 100%;
@@ -225,3 +224,6 @@ p{
   .checked {
     color: orange;
   }
+#form{
+  display: none;
+}
