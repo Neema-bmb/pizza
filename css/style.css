@@ -12,11 +12,16 @@ p{
 .zoom:hover {
     transform: scale(1.5); 
 }
-#special{
+#element37{
  
-  background-image: url(/images/rib.jpeg);
-  background-repeat: no-repeat;
-  background-size: ;
+ 
+    background-image: url(/images/rib.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 100%;
+    margin-right: -20%;
+    
+ 
 }
 .flip-box {
     width: 300px;
@@ -65,7 +70,7 @@ p{
     background-size: cover;
   }
   #element2{
-    background-image: url(/images/extra.jpg);
+    background-image: url(/images/e2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -130,7 +135,7 @@ p{
     background-size: cover
   }
   #element15{
-    background-image: url(/images/beef.jpg);
+    background-image: url(/images/beef.jpeg);
     background-repeat: no-repeat;
     background-size: cover
   }
@@ -229,6 +234,7 @@ p{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-weight: 50px;
 }
   .checked {
     color: orange;
@@ -250,7 +256,10 @@ h4{
   text-align: center;
 }
 .navbar{
-  text-align: right;
+ 
+ margin-left: 1000px;
+ font-size: 25px;
+ 
 }
 .end{
   text-align: center;
@@ -259,5 +268,17 @@ h4{
   font-size: 15px;
 }
 #menu{
-  font-size: 15px;
+  font-size: 25px;
+}
+h1{
+  text-align: center;
+}
+form{
+  background-image: url("/images/bg10.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30px;
+}
+body{
+  background-image: url("/images/ii.jpeg");
 }
