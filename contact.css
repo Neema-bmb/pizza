@@ -1,42 +1,29 @@
-.contact input[type="text"]{
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-  }
-  .contact input[type="email"]{
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-  }
-  .put{
-    text-align: center;
-   }
-   ::placeholder {  
-     color: white; 
-   } 
-   #message{
-     margin-left: 120px;
-   }
-   .end{
-     text-align: center;
-   }
-   .icon{
-     margin-left: 270px;
-   }
-   textarea{
-     background: transparent;
-     color: #fff;
-   }
-   .contact{
-    background-image: url(images/contact.jpeg);
+.contact-top{
+    background-image: url("./images/contact-background.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 480px;
-    position: relative;
-    padding: 90px;
+    background-attachment: fixed;
     text-align: center;
+    color: white;
+}
+#email, #message, #name{
+    background-color: transparent;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#name{
+    width: 55%;
+    margin-left: 40%;
+}
+#email{
+    width: 55%;
+    margin-left: -35%;
+}
+#message{
+    width: 55%;
+}
